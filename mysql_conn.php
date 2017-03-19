@@ -1,5 +1,5 @@
 <?php
-	$con = mysql_connect("localhost","root","wang");
+	$con = mysql_connect("localhost","root","root");
 	mysql_query("set names 'utf8'");
 	if (!$con)
 	  {
